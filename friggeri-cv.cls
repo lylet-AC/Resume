@@ -144,12 +144,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        pblue\or%
-        pblue\or%
-        pblue\or%
-        pblue\or%
-        pblue\else%
-        pblue\fi%
+        gray\or%
+        gray\else%
+        gray\fi%
     } #1#2#3%
   }%
   \stepcounter{colorCounter}%
