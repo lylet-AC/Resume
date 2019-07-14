@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.7.14)  14 JUL 2019 18:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.7.14)  14 JUL 2019 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,7 +1166,7 @@ File: img/skills.pdf Graphic file (type pdf)
 <use img/skills.pdf>
 
 Overfull \hbox (0.1514pt too wide) in paragraph at lines 54--54
- [][]
+[][]  
  []
 
 
@@ -1204,11 +1204,11 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40674 strings out of 492912
- 790266 string characters out of 6134893
- 1319896 words of memory out of 5000000
- 44288 multiletter control sequences out of 15000+600000
- 533648 words of font info for 65 fonts, out of 8000000 for 9000
+ 40672 strings out of 492912
+ 790193 string characters out of 6134893
+ 1319894 words of memory out of 5000000
+ 44287 multiletter control sequences out of 15000+600000
+ 533640 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,9n,109p,812b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 

@@ -101,12 +101,13 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \color{white}%
 }
 
+% Set up name and job title
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{30pt}{62pt}\color{header}%
-      {\thinfont #1}{\bodyfont  #2}
+      {\bodyfont #1}{\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{14pt}{24pt}\color{pblue}%
@@ -181,6 +182,8 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
+
+%set up the location for each entry of a section
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{11.8cm}{%
     \textbf{#2}%
@@ -203,11 +206,11 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \par\vspace{\baselineskip}{\Large\headingfont\color{pblue} ##1}
   }
   \begin{textblock}{3.6}(2.0, 0.55)
-  \begin{flushright}
+  \begin{flushleft}
   \obeycr
 }{%
   \restorecr
-  \end{flushright}
+  \end{flushleft}
   \end{textblock}
   \let\section\oldsection
 }
