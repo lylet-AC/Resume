@@ -189,7 +189,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=pblue} #3}\\%
-    #4\vspace{\parsep}%
+    #4\vspace{.25\parskip}%
   }\\}
 
 
